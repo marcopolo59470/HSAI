@@ -10,6 +10,7 @@ namespace SabberStoneCoreAi.Agent
 {
 	class MCTSAgent : AbstractAgent
 	{
+		private double iterations;
 		private double remainingSeconds = 12;
 		private int actionCount = 0;
 
